@@ -10,3 +10,5 @@ const title = pickTitle()
 const article = generate(title, {corpus})
 
 saveCorpus(title, article)
+
+console.log('test')
